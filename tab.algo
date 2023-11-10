@@ -1,0 +1,19 @@
+ALGORITHM Insertion 
+VAR
+    i, j, v : integer;
+BEGIN
+     FOR i := 2 to N do
+     v := Tab[ i ];
+     j := i ;
+    while Tab[ j-1 ] > v do.
+    Tab[ j ] := Tab[ j-1 ] ;
+          j := j - 1 ;
+       Tab[ j ] := v ;   
+    END_FOR
+
+    FOR i:=0 to N do
+    
+    Return (Tab(i))
+
+    End FOR 
+END
